@@ -162,6 +162,8 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 
 > 将数都分为两份，如果为奇数则分一个1和另外一个偶数。如果为偶数就直接分二。
 
+> nyoj Accepted  RunTime:194ms Submission Date:2019-01-02 15:10:52
+
 完整代码:[https://github.com/blackyau/homework/blob/master/MinProductFreque.java](https://github.com/blackyau/homework/blob/master/MinProductFreque.java)
 
 ## 李白打酒
@@ -197,6 +199,8 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 给定 N（n ≤ 10^5）个物品的重量 L，背包的容量M，同时要求每个背包最多装两个物品。求至少要多少个背包才能装下所有的物品。
 
 > 从数组的两边往中间一直尝试就行了，就是最后的输出换行有问题。因为程序本身结束的时候就会输出一个换行，我在程序中写的是每次都换行两次。所以会导致输出格式有问题。
+
+> UVaOJ Accepted  RunTime:0.540 Submission Date:2019-02-07 12:49:40
 
 完整代码:[https://github.com/blackyau/homework/blob/master/BinPacking.java](https://github.com/blackyau/homework/blob/master/BinPacking.java)
 
