@@ -236,3 +236,19 @@ N=25时，分4组：7、6、6、6。
 > 先将总人数除以8，得到分组数，再将总人数除8取余，如果大于0，分组数就要再加1。然后用总人数除以分组数得到每组的平均数，再将总人数除以分组数取余，再将余数分到每个组。
 
 完整代码:[https://github.com/blackyau/homework/blob/master/Grouping.java](https://github.com/blackyau/homework/blob/master/Grouping.java)
+
+## UVa 489 Hangman Judge 刽子手游戏
+
+[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=430](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=430)
+
+[https://vjudge.net/problem/UVA-489](https://vjudge.net/problem/UVA-489)
+
+刽子手游戏其实是一款猜单词游戏。游戏规则是这样的：计算机想一个单词让你猜，你每次可以猜一个字母。如果单词里有那个字母，所有该字母会显示出来；如果没有那个字母，则计算机会在一幅“刽子手”画上填一笔。这幅画一共需要7笔就能完成，因此你最多只能错6次。注意，猜一个已经猜过的字母也算错。
+
+在本地中，你的任务是编写一个“裁判”程序，输入单词和玩家的猜测，判断玩家赢了（You win.）、输了（You lose.）还是放弃了（You chickened out.）。每组数据包含3行，第1行是游戏编号（-1为输入结束标记），第2行是计算机想的单词，第3行是玩家的猜测。后两位保证只含小写字母。
+
+> 对这个题了解得不够深刻，基本上都是照搬了刘汝佳的代码。应该多做做这类题，而且这是第一次使用 Java 的函数有了点面向对象的感觉。
+
+> UVaOJ Accepted  RunTime:1.360 Submission Date:2019-02-08 15:20:15
+
+完整代码:[https://github.com/blackyau/homework/blob/master/HangmanJudge.java](https://github.com/blackyau/homework/blob/master/HangmanJudge.java)
