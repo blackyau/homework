@@ -6,6 +6,11 @@ UVaOJ blackyau [https://uhunt.onlinejudge.org/id/1015260](https://uhunt.onlineju
 
 Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#un=BlackYau)
 
+## 备忘录
+
+- 最长公共子序列
+- 八皇后问题
+
 ## SnackMath 蛇形填数
 
 在 n * n 方阵里填入 1,2,~,n*n 要求填成蛇形。例如 n=4 时方阵为：
