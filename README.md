@@ -11,6 +11,20 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## UVa 1585 Score 得分
+
+[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=4460](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=4460)
+
+[https://vjudge.net/problem/UVA-1585](https://vjudge.net/problem/UVA-1585)
+
+给出一个由 O 和 X 组成的串（长度为1~80），统计得分。每个 O 的得分为目前连续出现的 O 的个数，X 的得分为 0 。例如，OOXXOXXOOO 的得分为 1+2+0+0+1+0+0+1+2+3。
+
+> 一开始把题想复杂了还准备用递归做，结果突然想到用个 flag 标记当前到底是第一次出现就行了。如果匹配到 X 的话就把 flag 清空。
+
+> UVaOJ Accepted  RunTime:0.060 Submission Date:2019-02-27 14:34:49
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Score.java](https://github.com/blackyau/homework/blob/master/Score.java)
+
 ## UVa 489 Hangman Judge 刽子手游戏
 
 [https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=430](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=430)
