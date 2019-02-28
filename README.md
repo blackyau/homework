@@ -11,6 +11,22 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## UVa 514 铁轨
+
+[https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=455](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=455)
+
+[https://vjudge.net/problem/UVA-514](https://vjudge.net/problem/UVA-514)
+
+某城市有一个火车站，铁轨铺设如图6-1所示。有n节车厢从A方向驶入车站，按进站顺序编号为1～n。你的任务是判断是否能让它们按照某种特定的顺序进入B方向的铁轨并驶出车站。例如，出栈顺序（54123）是不可能的，但（54321）是可能的。
+
+![铁轨图片](https://i.loli.net/2019/02/28/5c77daf13e3be.jpg)
+
+为了重组车厢，你可以借助中转站C。这是一个可以停放任意多节车厢的车站，但由于末端封顶，驶入C的车厢必须按照相反的顺序驶出C.对于每个车厢，一旦从A移入C，就不能再回到A了；一旦从C移入B，就不能回到C了。换句话说，在任意时刻，只有两种选择:A→C和C→B。
+
+> 使用了 Java 的 Stack 类，只有一个栈。
+
+> UVaOJ Accepted  RunTime:1.070 Submission Date:2019-02-28 12:52:00
+
 ## UVa 1585 Score 得分
 
 [https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=4460](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=4460)
