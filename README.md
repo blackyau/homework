@@ -27,7 +27,7 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 
 > UVaOJ Accepted  RunTime:1.070 Submission Date:2019-02-28 12:52:00
 
-完整代码:[https://github.com/blackyau/homework/blob/master/Score.java](https://github.com/blackyau/homework/blob/master/Score.java)
+完整代码:[https://github.com/blackyau/homework/blob/master/Rails.java](https://github.com/blackyau/homework/blob/master/Rails.java)
 
 ## UVa 1585 Score 得分
 
@@ -41,7 +41,7 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 
 > UVaOJ Accepted  RunTime:0.060 Submission Date:2019-02-27 14:34:49
 
-完整代码:[https://github.com/blackyau/homework/blob/master/Rails.java](https://github.com/blackyau/homework/blob/master/Rails.java)
+完整代码:[https://github.com/blackyau/homework/blob/master/Score.java](https://github.com/blackyau/homework/blob/master/Score.java)
 
 ## UVa 489 Hangman Judge 刽子手游戏
 
