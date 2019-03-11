@@ -11,6 +11,59 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 核桃的数量
+
+蓝桥杯 2013 Java C 7
+
+小张是软件项目经理，他带领3个开发组。工期紧，今天都在加班呢。为鼓舞士气，小张打算给每个组发一袋核桃（据传言能补脑）。他的要求是：
+
+1. 各组的核桃数量必须相同
+2. 各组内必须能平分核桃（当然是不能打碎的）
+3. 尽量提供满足1,2条件的最小数量（节约闹革命嘛）
+
+程序从标准输入读入：
+
+a b c
+
+a,b,c都是正整数，表示每个组正在加班的人数，用空格分开（a,b,c<30）
+
+程序输出：
+一个正整数，表示每袋核桃的数量。
+
+例如：
+
+用户输入：
+
+```
+2 4 5
+```
+
+程序输出：
+
+```
+20
+```
+
+再例如：
+
+用户输入：
+
+```
+3 1 1
+```
+
+程序输出：
+
+```
+3
+```
+
+> 一开始把 for 循环的范围定的太少了，过度解读的题目的 ```尽量提供满足1,2条件的最小数量``` 。搞了半天就是个粗暴的求最小公因数，暴力就行了！
+
+> http://lx.lanqiao.cn Accepted  RunTime:234ms Submission Date:2019-03-12 00:15 Score:100
+
+完整代码:[https://github.com/blackyau/homework/blob/master/WalnutsNumber.java](https://github.com/blackyau/homework/blob/master/WalnutsNumber.java)
+
 ## 逆波兰表达式
 
 蓝桥杯 2013 Java C 6
