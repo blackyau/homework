@@ -405,6 +405,8 @@ N=25时，分4组：7、6、6、6。
 
 > 使用for循环枚举所有5位数和6位数的数字，使用除余将每一位都分出来。直接进行比对即可
 
+> http://lx.lanqiao.cn Accepted  RunTime:375ms Submission Date:2019-01-02 16:31 Score:100
+
 完整代码:[https://github.com/blackyau/homework/blob/master/SpecialPalindromicNumber.java](https://github.com/blackyau/homework/blob/master/SpecialPalindromicNumber.java)
 
 ## UVa 11292 Dragon of Loowater 勇者斗恶龙
