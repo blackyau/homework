@@ -11,7 +11,33 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
-# 组素数
+## 马虎的算式
+
+蓝桥杯 2013 Java C 3
+
+小明是个急性子，上小学的时候经常把老师写在黑板上的题目抄错了。
+
+有一次，老师出的题目是：36 x 495 = ?
+
+他却给抄成了：396 x 45 = ?
+
+但结果却很戏剧性，他的答案竟然是对的！！
+
+因为 36 * 495 = 396 * 45 = 17820
+
+类似这样的巧合情况可能还有很多，比如：27 * 594 = 297 * 54
+
+假设 a b c d e 代表1~9不同的5个数字（注意是各不相同的数字，且不含0）
+
+能满足形如： ab * cde = adb * ce 这样的算式一共有多少种呢？
+
+请你利用计算机的优势寻找所有的可能，并回答不同算式的种类数。
+
+> 暴力穷举所有数，直接 if 看看对不对就行了。判断每一位数是否重复的时候出了点错，没有考虑周全。应该先用 a 匹配其他数字，再用 b 匹配其他数，以此类推不能落下任何一位。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/CarelessEquation.java](https://github.com/blackyau/homework/blob/master/CarelessEquation.java)
+
+## 组素数
 
 蓝桥杯 2013 Java C 2
 
