@@ -25,6 +25,47 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 
 完整代码:[https://github.com/blackyau/homework/blob/master/GuessAge.java](https://github.com/blackyau/homework/blob/master/GuessAge.java)
 
+## 三点顺序
+
+现在给你不共线的三个点A,B,C的坐标，它们一定能组成一个三角形，现在让你判断A，B，C是顺时针给出的还是逆时针给出的？
+
+图1：顺时针给出
+
+图2：逆时针给出
+
+![图1 顺时针](https://i.loli.net/2019/03/11/5c862455da288.jpg)
+
+![图2 逆时针](https://i.loli.net/2019/03/11/5c862458e31c8.jpg)
+
+输出描述：
+
+每行是一组测试数据，有6个整数x1,y1,x2,y2,x3,y3分别表示A,B,C三个点的横纵坐标。（坐标值都在0到10000之间)
+
+输入0 0 0 0 0 0表示输入结束
+
+测试数据不超过10000组
+
+如果这三个点是顺时针给出的，请输出1，逆时针给出则输出0
+
+样例输入
+
+```
+0 0 1 1 1 3
+0 1 1 0 0 0
+0 0 0 0 0 0
+```
+
+样例输出
+
+```
+0
+1
+```
+
+> 矢量叉积，核心代码就一个公式。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Triangle.java](https://github.com/blackyau/homework/blob/master/Triangle.java)
+
 ## UVa 514 铁轨
 
 [https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=455](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=455)
