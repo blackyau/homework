@@ -11,6 +11,24 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+# 组素数
+
+蓝桥杯 2013 Java C 2
+
+素数就是不能再进行等分的数。比如：2 3 5 7 11 等。
+
+9 = 3 * 3 说明它可以3等分，因而不是素数。
+
+我们国家在1949年建国。如果只给你 1 9 4 9 这4个数字卡片，可以随意摆放它们的先后顺序（但卡片不能倒着摆放啊，我们不是在脑筋急转弯！），那么，你能组成多少个4位的素数呢？
+
+比如：1949，4919 都符合要求。
+
+请你提交：能组成的4位素数的个数，不要罗列这些素数!!
+
+> 一开始没有理解到素数的概念，计算出来的数字总是要大些。最后发现必须要一直循环到数字的前一个结束才行。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/PrimeNumber.java](https://github.com/blackyau/homework/blob/master/PrimeNumber.java)
+
 ## 猜年龄
 
 蓝桥杯 2013 Java C 1
