@@ -25,6 +25,22 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 
 完整代码:[https://github.com/blackyau/homework/blob/master/GuessAge.java](https://github.com/blackyau/homework/blob/master/GuessAge.java)
 
+## 第39级台阶
+
+蓝桥杯 2013 Java C 4
+
+小明刚刚看完电影《第39级台阶》，离开电影院的时候，他数了数礼堂前的台阶数，恰好是39级!
+
+站在台阶前，他突然又想着一个问题：
+
+如果我每一步只能迈上1个或2个台阶。先迈左脚，然后左右交替，最后一步是迈右脚，也就是说一共要走偶数步。那么，上完39级台阶，有多少种不同的上法呢？
+
+请你利用计算机的优势，帮助小明寻找答案。
+
+> 递归的使用
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Step.java](https://github.com/blackyau/homework/blob/master/Step.java)
+
 ## 三点顺序
 
 现在给你不共线的三个点A,B,C的坐标，它们一定能组成一个三角形，现在让你判断A，B，C是顺时针给出的还是逆时针给出的？
