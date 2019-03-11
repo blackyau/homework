@@ -11,6 +11,18 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 有理数类
+
+蓝桥杯 2013 Java C 5
+
+有理数就是可以表示为两个整数的比值的数字。一般情况下，我们用近似的小数表示。但有些时候，不允许出现误差，必须用两个整数来表示一个有理数。
+
+这时，我们可以建立一个“有理数类”，下面的代码初步实现了这个目标。为了简明，它只提供了加法和乘法运算。
+
+> 自己做的第一个填空题，对这个实现的方法没有认真的研究。毫无头绪，看了看答案大概感受了一下。打马虎眼的就过去了吧，这种题依赖 Debug 连蒙带猜的应该都能做出来。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/GuessAge.java](https://github.com/blackyau/homework/blob/master/GuessAge.java)
+
 ## 马虎的算式
 
 蓝桥杯 2013 Java C 3
