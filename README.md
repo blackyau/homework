@@ -11,6 +11,22 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 猜字母
+
+蓝桥杯 2014 Java C 3
+
+把abcd...s共19个字母组成的序列重复拼接106次，得到长度为2014的串。
+
+接下来删除第1个字母（即开头的字母a），以及第3个，第5个等所有奇数位置的字母。
+
+得到的新串再进行删除奇数位置字母的动作。如此下去，最后只剩下一个字母，请写出该字母。
+
+答案是一个小写字母，请通过浏览器提交答案。不要填写任何多余的内容。
+
+> 一开始用 Str 想每次都取出两边的的内容然后再拼接，因为 for 循环处理第一个字母遇到了问题。就搜了搜网上的，发现了使用 ```StringBuffer``` 的 ```deleteCharAt(i)``` 太微妙了。因为每次 ```deleteCharAt``` 整个字符串都在整体左移，所以虽然 ```for循环``` 都是 ```i++``` 实际上他是每隔一位删掉一个字母。所以也完美的贴合的这个题目的要求，同时因为 ```length```都在实时变化，也不用害怕下标越界。
+ 
+完整代码:[https://github.com/blackyau/homework/blob/master/GuessLetters.java](https://github.com/blackyau/homework/blob/master/GuessLetters.java)
+
 ## 等额本金
 
 蓝桥杯 2014 Java C 2
