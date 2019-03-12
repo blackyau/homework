@@ -11,6 +11,31 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 写日志
+
+蓝桥杯 2014 Java C 5
+
+写日志是程序的常见任务。现在要求在 t1.log, t2.log, t3.log 三个文件间轮流写入日志。也就是说第一次写入t1.log，第二次写入t2.log，... 第四次仍然写入t1.log，如此反复。
+
+下面的代码模拟了这种轮流写入不同日志文件的逻辑。
+
+```java
+public class A
+{
+	private static int n = 1;
+	
+	public static void write(String msg)
+	{
+		String filename = "t" + n + ".log";
+		n = ____________;
+		System.out.println("write to file: " + filename + " " + msg);
+	}
+}
+```
+请填写划线部分缺失的代码。通过浏览器提交答案。
+
+> 我的天这个太微妙了 ```n = n%3+1;``` ，因为分母太小了所以没法除那么余数就是它本身。再 +1 就太完美了，说不出来的漂亮代码。太佩服了。我还在思考怎么在一行里面写 ```if```
+
 ## 大衍数列
 
 蓝桥杯 2014 Java C 4
