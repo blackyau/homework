@@ -11,6 +11,34 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 奇怪的分式
+
+蓝桥杯 2014 Java C 7
+
+上小学的时候，小明经常自己发明新算法。一次，老师出的题目是：
+
+1/4 乘以 8/5 
+
+小明居然把分子拼接在一起，分母拼接在一起，答案是：18/45 （参见图1.png）
+
+![图1](https://i.loli.net/2019/03/13/5c87e994b6823.jpg)
+
+老师刚想批评他，转念一想，这个答案凑巧也对啊，真是见鬼！
+
+对于分子、分母都是 1~9 中的一位数的情况，还有哪些算式可以这样计算呢？
+
+请写出所有不同算式的个数（包括题中举例的）。
+
+显然，交换分子分母后，例如：4/1 乘以 5/8 是满足要求的，这算做不同的算式。
+
+但对于分子分母相同的情况，2/2 乘以 3/3 这样的类型太多了，不在计数之列!
+
+注意：答案是个整数（考虑对称性，肯定是偶数）。请通过浏览器提交。不要书写多余的内容。
+
+> 一开始我也用的除法来对比，因为精度问题没法处理好 ```if``` 。最后还是单纯的计算两个数字是否一样就行了，十位上面的数就乘以 10 模拟相等就可以避免除法了。
+ 
+完整代码:[https://github.com/blackyau/homework/blob/master/StrangeFraction.java](https://github.com/blackyau/homework/blob/master/StrangeFraction.java)
+
 ## 写日志
 
 蓝桥杯 2014 Java C 5
@@ -35,6 +63,8 @@ public class A
 请填写划线部分缺失的代码。通过浏览器提交答案。
 
 > 我的天这个太微妙了 ```n = n%3+1;``` ，因为分母太小了所以没法除那么余数就是它本身。再 +1 就太完美了，说不出来的漂亮代码。太佩服了。我还在思考怎么在一行里面写 ```if```
+
+完整代码:[https://github.com/blackyau/homework/blob/master/TypeLog.java](https://github.com/blackyau/homework/blob/master/TypeLog.java)
 
 ## 大衍数列
 
