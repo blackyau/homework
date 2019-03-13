@@ -11,6 +11,18 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 隔行变色
+
+蓝桥杯 2015 Java C 1
+
+Excel表的格子很多，为了避免把某行的数据和相邻行混淆，可以采用隔行变色的样式。
+小明设计的样式为：第1行蓝色，第2行白色，第3行蓝色，第4行白色，....
+现在小明想知道，从第21行到第50行一共包含了多少个蓝色的行。
+
+> 一句话解释：21~50之间有多少个奇数
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Discoloration.java](https://github.com/blackyau/homework/blob/master/Discoloration.java)
+
 ## 搭积木
 
 蓝桥杯 2016 Java C 7
