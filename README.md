@@ -11,6 +11,21 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 无穷分数
+
+蓝桥杯 2015 Java C 3
+
+无穷的分数，有时会趋向于固定的数字。
+请计算【图1.jpg】所示的无穷分数，要求四舍五入，精确到小数点后5位，小数位不足的补0。
+
+![图1](https://i.loli.net/2019/03/14/5c8929638bdd1.jpg)
+
+请填写该浮点数，不能填写任何多余的内容。
+
+> 因为浮点数精度不够，所以就使用了 ```BigDecimal``` 来做，用逆推的方式求出结果。尝试循环的次数大于 ```8``` 数字就为固定的 ```0.58198``` 了。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/InfiniteScore.java](https://github.com/blackyau/homework/blob/master/InfiniteScore.java)
+
 ## 立方尾不变
 
 蓝桥杯 2015 Java C 2
