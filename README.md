@@ -11,6 +11,39 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 循环节长度
+
+蓝桥杯 2015 Java C 4
+
+两个整数做除法，有时会产生循环小数，其循环部分称为：循环节。
+比如，```11/13=6=>0.846153846153.....```  其循环节为 ```846153``` 共有```6```位。
+下面的方法，可以求出循环节的长度。
+
+请仔细阅读代码，并填写划线部分缺少的代码。
+
+```java
+	public static int f(int n, int m)
+	{
+		n = n % m;	
+		Vector v = new Vector();
+		
+		for(;;)
+		{
+			v.add(n);
+			n *= 10;
+			n = n % m;
+			if(n==0) return 0;
+			if(v.indexOf(n)>=0)  ________ ;  //填空
+		}
+	}
+```
+
+注意，只能填写缺少的部分，不要重复抄写已有代码。不要填写任何多余的文字。
+
+> 用 Debug 简单的猜测了一下，应该填 ```V``` 这个数组的 ```length ``` 也就是 ```n.size()``` 但是这个地方有个很大的陷阱，有部分数字循环节并不是从第一位开始的。所以就需要用 ```size() - indexOf(n)``` 很大的坑。在自己演算的时候，能够想到这种数据应该不太容易。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/CycleLength.java](https://github.com/blackyau/homework/blob/master/CycleLength.java)
+
 ## 无穷分数
 
 蓝桥杯 2015 Java C 3
