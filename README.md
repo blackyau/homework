@@ -11,6 +11,21 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 立方尾不变
+
+蓝桥杯 2015 Java C 2
+
+有些数字的立方的末尾正好是该数字本身。
+比如：```1,4,5,6,9,24,25,....```
+
+请你计算一下，在 ```10000``` 以内的数字中（指该数字，并非它立方后的数值），符合这个特征的正整数一共有多少个。
+
+请提交该整数，不要填写任何多余的内容。
+
+> 执着于使用数学的方式去求余然后比对，这里直接转成 ```String``` 然后用 ```endsWith``` 要方便很多。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/CubeEnd.java](https://github.com/blackyau/homework/blob/master/CubeEnd.java)
+
 ## 隔行变色
 
 蓝桥杯 2015 Java C 1
