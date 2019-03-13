@@ -18,10 +18,8 @@ public class BuildingBlocks {
 					list.clear();
 					continue;
 				}else{
-					if(a1>b1 && a2>b1 && a2>b2 && a3>b2 && a3>b3 && a4>b3 && b1>c1 && b2>c1 && b2>c2 && b3>c2){
-						if(c1>d && c2>d){
+					if(a1>b1 && a2>b1 && a2>b2 && a3>b2 && a3>b3 && a4>b3 && b1>c1 && b2>c1 && b2>c2 && b3>c2 && c1>d && c2>d){
 							n++;
-						}
 					}
 				}
 		}
