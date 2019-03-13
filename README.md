@@ -268,6 +268,43 @@ a,b,c都是正整数，表示每个组正在加班的人数，用空格分开（
 
 完整代码:[https://github.com/blackyau/homework/blob/master/PrimeNumber.java](https://github.com/blackyau/homework/blob/master/PrimeNumber.java)
 
+## 搭积木
+
+蓝桥杯 2016 Java C 7
+
+小明最近喜欢搭数字积木，
+一共有10块积木，每个积木上有一个数字，0~9。
+
+搭积木规则：
+每个积木放到其它两个积木的上面，并且一定比下面的两个积木数字小。
+最后搭成4层的金字塔形，必须用完所有的积木。
+
+下面是两种合格的搭法：
+
+```
+   0
+  1 2
+ 3 4 5
+6 7 8 9
+```
+
+```
+   0
+  3 1
+ 7 5 2
+9 8 6 4    
+```
+
+请你计算这样的搭法一共有多少种？
+
+请填表示总数目的数字。
+
+注意：你提交的应该是一个整数，不要填写任何多余的内容或说明性文字。
+
+> 暴力就完事儿了，就是代码运行时间要2分钟。写这个代码也是遇到了蛮多问题，本来想尽可能的减少计算规模。其实花了更多不必要的时间。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/BuildingBlocks.java](https://github.com/blackyau/homework/blob/master/BuildingBlocks.java)
+
 ## 猜年龄
 
 蓝桥杯 2013 Java C 1
