@@ -10,7 +10,7 @@ public class HappyNumber {
 		for(int i=1;n+1>i;i++){
 			String number_st = sc.next();
 			int number = Integer.valueOf(number_st).intValue();
-			HashSet list = new HashSet();
+			HashSet<Integer> list = new HashSet<Integer>();
 			while(number>0){
 				if(!list.add(number)){
 					System.out.println("Case #" + i +": " + number_st + " is an Unhappy number.");

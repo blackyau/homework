@@ -11,7 +11,7 @@ public class GuessAge {
 					b=i*i*i*i;
 					String stra = String.valueOf(a);
 					String strb = String.valueOf(b);
-					HashSet list = new HashSet();
+					HashSet<Character> list = new HashSet<Character>();
 					for(int c=0; c<=stra.length(); c++){
 						if(!list.add(stra.charAt(c))){
 							break;
