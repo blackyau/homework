@@ -11,6 +11,17 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 奇妙的数字
+
+蓝桥杯 2015 Java C 6
+
+小明发现了一个奇妙的数字。它的平方和立方正好把0~9的10个数字每个用且只用了一次。
+
+你能猜出这个数字是多少吗？
+
+> 暴力就完事儿了，```Hashset``` 的应用，还有 ```chat``` 转 ```string``` 。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/WonderfulNum.java](https://github.com/blackyau/homework/blob/master/WonderfulNum.java)
 ## 格子中输出
 
 蓝桥杯 2015 Java C 5
