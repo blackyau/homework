@@ -11,6 +11,25 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 加法变乘法
+
+蓝桥杯 2015 Java C 7
+
+我们都知道：```1+2+3+ ... + 49 = 1225```
+现在要求你把其中两个不相邻的加号变成乘号，使得结果为 ```2015```
+
+比如：
+
+```1+2+3+...+10*11+12+...+27*28+29+...+49 = 2015```
+
+就是符合要求的答案。
+
+请你寻找另外一个可能的答案，并把位置靠前的那个乘号左边的数字提交（对于示例，就是提交```10```）。
+
+> 单独写了个方法传入两个数字用来验证是否管用，然后用两个 ```for``` 直接都遍历一次。就是要注意一下下标越界。
+ 
+完整代码:[https://github.com/blackyau/homework/blob/master/AddToMul.java](https://github.com/blackyau/homework/blob/master/AddToMul.java)
+
 ## 奇妙的数字
 
 蓝桥杯 2015 Java C 6
@@ -22,6 +41,7 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 > 暴力就完事儿了，```Hashset``` 的应用，还有 ```chat``` 转 ```string``` 。
 
 完整代码:[https://github.com/blackyau/homework/blob/master/WonderfulNum.java](https://github.com/blackyau/homework/blob/master/WonderfulNum.java)
+
 ## 格子中输出
 
 蓝桥杯 2015 Java C 5
