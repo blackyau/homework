@@ -11,6 +11,27 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 煤球数目
+
+蓝桥杯 2016 Java C 2
+
+有一堆煤球，堆成三角棱锥形。具体：
+
+- 第一层放1个
+
+- 第二层3个（排列成三角形）
+
+- 第三层6个（排列成三角形）
+
+- 第四层10个（排列成三角形）
+....
+
+如果一共有100层，共有多少个煤球？
+
+> 我一开始是用的等差数列来算的，算出来的结果其实是最后一层的个数。应该把每一层算出来的数字再全部加起来才行。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Briquettes.java](https://github.com/blackyau/homework/blob/master/Briquettes.java)
+
 ## 有奖猜谜
 
 蓝桥杯 2016 Java C 1
@@ -25,7 +46,7 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 
 1. 猜对了，手里的电子币数目翻倍，
 
-1. 猜错了，扣除555个电子币, 扣完为止。
+2. 猜错了，扣除555个电子币, 扣完为止。
 
 小明一共猜了 ```15``` 条谜语。
 
