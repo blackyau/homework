@@ -11,6 +11,20 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 平方怪圈
+
+蓝桥杯 2016 Java C 3
+
+如果把一个正整数的每一位都平方后再求和，得到一个新的正整数。对新产生的正整数再做同样的处理。
+
+如此一来，你会发现，不管开始取的是什么数字，最终如果不是落入1，就是落入同一个循环圈。
+
+请写出这个循环圈中最大的那个数字。
+
+> 和以前做过的 [UVa 10591 Happy Number 快乐数](https://github.com/blackyau/homework#uva-10591-happy-number-%E5%BF%AB%E4%B9%90%E6%95%B0) 很相似，快乐数的算法又忘了做了半天才做完。这个题并不需要把每个数都存起来，上次运行的结果和这次运行的结果进行比较。每次都留其中最大的一个就行了，毕竟题目都说了这是个循环圈。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/SquareWeirdCircle.java](https://github.com/blackyau/homework/blob/master/SquareWeirdCircle.java)
+
 ## 煤球数目
 
 蓝桥杯 2016 Java C 2
