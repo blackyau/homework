@@ -11,6 +11,34 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 有奖猜谜
+
+蓝桥杯 2016 Java C 1
+
+小明很喜欢猜谜语。
+
+最近，他被邀请参加了X星球的猜谜活动。
+
+每位选手开始的时候都被发给 ```777``` 个电子币。
+
+规则是：
+
+1. 猜对了，手里的电子币数目翻倍，
+
+1. 猜错了，扣除555个电子币, 扣完为止。
+
+小明一共猜了 ```15``` 条谜语。
+
+战果为：```vxvxvxvxvxvxvvx```
+
+其中 ```v``` 表示猜对了，```x``` 表示猜错了。
+
+请你计算一下，小明最后手里的电子币数目是多少。
+
+> 没啥可说的
+
+完整代码:[https://github.com/blackyau/homework/blob/master/PrizeGuess.java](https://github.com/blackyau/homework/blob/master/PrizeGuess.java)
+
 ## 打印大X
 
 蓝桥杯 2015 Java C 9
