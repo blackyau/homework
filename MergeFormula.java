@@ -3,7 +3,6 @@ import java.util.HashSet;
 public class MergeFormula {
 
 	public static void main(String[] args) {
-		long startTime = System.nanoTime();
 		HashSet<Integer> list = new HashSet<Integer>();
 		int def=0,ghi=0,sum=0;
 		for(int a=1; a<10; a++){
@@ -24,9 +23,6 @@ public class MergeFormula {
 			}
 		}}}}}}}}}
 		System.out.println(sum);
-		long endTime = System.nanoTime();
-		long duration = (endTime - startTime);
-		System.out.println(duration);
 	}
 
 }

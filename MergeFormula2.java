@@ -3,12 +3,8 @@ public class MergeFormula2 {
 	static int[] a = {1,2,3,4,5,6,7,8,9};
 	static int sum = 0;
 	public static void main(String[] args) {
-		long startTime = System.nanoTime();
 		f(0);
 		System.out.println(sum);
-		long endTime = System.nanoTime();
-		long duration = (endTime - startTime);
-		System.out.println(duration);
 	}
 	static void f(int k){
 		if(k==a.length){//一种排列已生产
