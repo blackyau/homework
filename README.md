@@ -11,6 +11,32 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 凑算式
+
+蓝桥杯 2016 Java C 6
+
+```
+     B      DEF
+A + --- + ------- = 10
+     C      GHI
+```
+
+这个算式中A~I代表1~9的数字，不同的字母代表不同的数字。
+
+比如：
+- 6+8/3+952/714 就是一种解法，
+- 5+3/1+972/486 是另一种解法。
+
+这个算式一共有多少种解法？
+
+注意：你提交应该是个整数，不要填写任何多余的内容或说明性文字。
+
+> 这个题我用了两种写法，第一种是暴力穷举每一位，第二种是使用 递归回溯生成全排列  。第二种方式是个适用于无重复元素的情况，就当个公式用了。对这个理解不是很深，就只有暂时这样了。
+
+穷举每一位:[https://github.com/blackyau/homework/blob/master/MergeFormula.java](https://github.com/blackyau/homework/blob/master/MergeFormula.java)
+
+递归回溯全排列:[https://github.com/blackyau/homework/blob/master/MergeFormula2.java](https://github.com/blackyau/homework/blob/master/MergeFormula2.java)
+
 ## 分小组
 
 蓝桥杯 2016 Java C 5
