@@ -11,6 +11,45 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 骰子游戏
+
+蓝桥杯 2016 Java C 4
+
+我们来玩一个游戏。
+
+同时掷出3个普通骰子（6个面上的数字分别是1~6）。
+
+如果其中一个骰子上的数字等于另外两个的和，你就赢了。
+
+下面的程序计算出你能获胜的精确概率（以既约分数表示）
+
+```java
+public class Main
+{
+	public static int gcd(int a, int b)
+	{
+		if(b==0) return a;
+		return gcd(b,a%b);
+	}
+	
+	public static void main(String[] args)
+	{	
+		int n = 0;
+		for(int i=0; i<6; i++)
+		for(int j=0; j<6; j++)
+		for(int k=0; k<6; k++){
+			if(______________) n++;   //填空位置
+		}
+		
+		int m = gcd(n,6*6*6);
+		System.out.println(n/m + "/" + 6*6*6/m);
+	}
+}
+```
+> 一看上面三个 ```for``` 就膨胀了，直接写了一个相等就去看答案了。这里应该要写三个相等用 ```||``` 连接，而且数字都要 ```+1``` 。因为这里 ```for``` 的数字是 ```0-5``` 和骰子的 ```1-6``` 完全不一样。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Dice.java](https://github.com/blackyau/homework/blob/master/Dice.java)
+
 ## 平方怪圈
 
 蓝桥杯 2016 Java C 3
