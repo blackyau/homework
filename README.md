@@ -11,6 +11,82 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 分小组
+
+蓝桥杯 2016 Java C 5
+
+9名运动员参加比赛，需要分3组进行预赛。
+有哪些分组的方案呢？
+
+我们标记运动员为 A,B,C,... I
+下面的程序列出了所有的分组方法。
+
+该程序的正常输出为：
+
+```
+ABC DEF GHI
+ABC DEG FHI
+ABC DEH FGI
+ABC DEI FGH
+ABC DFG EHI
+..... (以下省略，总共560行)
+```
+
+```java
+public class A
+{
+	public static String remain(int[] a)
+	{
+		String s = "";
+		for(int i=0; i<a.length; i++){
+			if(a[i] == 0) s += (char)(i+'A');
+		}	
+		return s;
+	}
+	
+	public static void f(String s, int[] a)
+	{
+		for(int i=0; i<a.length; i++){
+			if(a[i]==1) continue;
+			a[i] = 1;
+			for(int j=i+1; j<a.length; j++){
+				if(a[j]==1) continue;
+				a[j]=1;
+				for(int k=j+1; k<a.length; k++){
+					if(a[k]==1) continue;
+					a[k]=1;
+					System.out.println(__________________________________);  //填空位置
+					a[k]=0;
+				}
+				a[j]=0;
+			}
+			a[i] = 0;
+		}
+	}
+	
+	public static void main(String[] args)
+	{
+		int[] a = new int[9];		
+		a[0] = 1;
+		
+		for(int b=1; b<a.length; b++){
+			a[b] = 1;
+			for(int c=b+1; c<a.length; c++){
+				a[c] = 1;
+				String s = "A" + (char)(b+'A') + (char)(c+'A');
+				f(s,a);
+				a[c] = 0;
+			}
+			a[b] = 0;
+		}
+	}
+}
+```
+
+> 用 ```Debug``` 看变量猜，第1组数据就是被传进 ```f()``` 的 ```String s``` ，第2组数据就是三个 ```for``` 循环的变量 直接仿造 ```main``` 的方法把它打印出来，第3组数据是最顶上没有被用过的 ```remain()``` 因为它传入的数据是数组，直接就把数组传进去就行了。 赞美 ```Debug``` 
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Grouping2.java](https://github.com/blackyau/homework/blob/master/Grouping2.java)
+
 ## 骰子游戏
 
 蓝桥杯 2016 Java C 4
