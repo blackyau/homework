@@ -531,9 +531,11 @@ Excel表的格子很多，为了避免把某行的数据和相邻行混淆，可
 
 注意：你提交的应该是一个整数，不要填写任何多余的内容或说明性文字。
 
-> 暴力就完事儿了，就是代码运行时间要2分钟。写这个代码也是遇到了蛮多问题，本来想尽可能的减少计算规模。其实花了更多不必要的时间。
+> 暴力就完事儿了，就是代码运行时间要66.45秒。写这个代码也是遇到了蛮多问题，本来想尽可能的减少计算规模。其实花了更多不必要的时间。用 递归回溯重排列 重写了一遍，能0.06秒瞬间出结果了。
 
-完整代码:[https://github.com/blackyau/homework/blob/master/BuildingBlocks.java](https://github.com/blackyau/homework/blob/master/BuildingBlocks.java)
+暴力:[https://github.com/blackyau/homework/blob/master/BuildingBlocks.java](https://github.com/blackyau/homework/blob/master/BuildingBlocks.java)
+
+递归回溯重排列:[https://github.com/blackyau/homework/blob/master/BuildingBlocks2.java](https://github.com/blackyau/homework/blob/master/BuildingBlocks2.java)
 
 ## 奇怪的分式
 
