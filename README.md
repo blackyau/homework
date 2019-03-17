@@ -11,6 +11,81 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 寒假作业
+
+蓝桥杯 2016 C C 7
+
+现在小学的数学题目也不是那么好玩的。
+看看这个寒假作业：
+```
+□ + □ = □
+□ - □ = □
+□ × □ = □
+□ ÷ □ = □
+```
+
+每个方块代表1~13中的某一个数字，但不能重复。
+比如：
+```
+6  + 7 = 13
+9  - 8 = 1
+3  * 4 = 12
+10 / 2 = 5
+```
+以及： 
+```
+ 7  + 6 = 13
+ 9  - 8 = 1
+ 3  * 4 = 12
+ 10 / 2 = 5
+```
+就算两种解法。（加法，乘法交换律后算不同的方案）
+ 
+你一共找到了多少种方案？
+
+请填写表示方案数目的整数。
+
+> 递归回溯全排列真香
+
+完整代码:[https://github.com/blackyau/homework/blob/master/WinterVacation.java](https://github.com/blackyau/homework/blob/master/WinterVacation.java)
+
+## 纸牌三角形
+
+蓝桥杯 2017 Java C 3
+
+```A,2,3,4,5,6,7,8,9``` 共9张纸牌排成一个正三角形（A按1计算）。要求每个边的和相等。
+
+下图就是一种排法（如有对齐问题，参看p1.png(没有)）。
+```
+      A
+     9 6
+    4   8
+   3 7 5 2
+```
+这样的排法可能会有很多。
+
+如果考虑旋转、镜像后相同的算同一种，一共有多少种不同的排法呢？
+
+请你计算并提交该数字。
+
+注意：需要提交的是一个整数，不要提交任何多余内容。
+
+笨笨有话说：
+
+感觉可以暴力破解哦。
+
+麻烦的是，对每个排法还要算出它的旋转、镜像排法，看看有没有和历史重复。
+
+歪歪有话说：
+
+人家又不让你把所有情况都打印出来，只是要算种类数。
+
+对于每个基本局面，通过旋转、镜像能造出来的新局面数目不是固定的吗？
+
+> 还是用的之前的 递归回溯全排列 真好用，不过最后的/3/2去掉旋转的和镜像的。逻辑还是有点没捋清。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/SolitaireTriangle.java](https://github.com/blackyau/homework/blob/master/SolitaireTriangle.java)
+
 ## 兴趣小组
 
 蓝桥杯 2017 Java C 2
@@ -30,8 +105,6 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 请你统计该数字并通过浏览器提交答案。
 
 注意：答案是一个整数，不要提交任何多余的内容。
-
---------------------
 
 笨笨有话说：
 
