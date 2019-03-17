@@ -11,9 +11,47 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 最长公共子序列
 - 八皇后问题
 
+## 兴趣小组
+
+蓝桥杯 2017 Java C 2
+
+为丰富同学们的业余文化生活，某高校学生会创办了3个兴趣小组
+
+（以下称A组，B组，C组）。
+
+每个小组的学生名单分别在[【A.txt】](https://st.blackyau.net/share/LanQiao/A.txt),[【B.txt】](https://st.blackyau.net/share/LanQiao/B.txt)和[【C.txt】](https://st.blackyau.net/share/LanQiao/C.txt)中。
+
+每个文件中存储的是学生的学号。
+
+由于工作需要，我们现在想知道：
+
+既参加了A组，又参加了B组，但是没有参加C组的同学一共有多少人？
+
+请你统计该数字并通过浏览器提交答案。
+
+注意：答案是一个整数，不要提交任何多余的内容。
+
+--------------------
+
+笨笨有话说：
+
+哇塞！数字好多啊！一眼望过去就能发现相同的，好像没什么指望。
+
+不过，可以排序啊，要是每个文件都是有序的，那就好多了。
+
+歪歪有话说：
+
+排什么序啊，这么几行数字对计算机不是太轻松了吗？
+
+我看着需求怎么和中学学过的集合很像啊.....
+
+> 不知道 ```Java``` 怎么读取文件的，蓝桥杯不会有文件操作的题，因为答案都是通过浏览器提交嘛，就懒得去看了。这里有一些数据是 ```0``` 开始的，我就手动把前面带 ```0``` 的数据前面的 ```0``` 都删掉了。其他的没什么可说的。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/InterestGroup.java](https://github.com/blackyau/homework/blob/master/InterestGroup.java)
+
 ## 外星日历
 
-蓝桥杯 2017 Java C 9
+蓝桥杯 2017 Java C 1
 
 某星系深处发现了文明遗迹。
 
