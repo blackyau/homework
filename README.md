@@ -1106,11 +1106,13 @@ Excel表的格子很多，为了避免把某行的数据和相邻行混淆，可
 
 注意：你提交的应该是一个整数，不要填写任何多余的内容或说明性文字。
 
-> 暴力就完事儿了，就是代码运行时间要66.45秒。写这个代码也是遇到了蛮多问题，本来想尽可能的减少计算规模。其实花了更多不必要的时间。用 递归回溯重排列 重写了一遍，能0.06秒瞬间出结果了。
+> 暴力就完事儿了，就是代码运行时间要66.45秒。写这个代码也是遇到了蛮多问题，本来想尽可能的减少计算规模。其实花了更多不必要的时间。用 递归回溯重排列 重写了一遍，能0.06秒瞬间出结果了。又添加了一个新方法，只不过它的特性在这个题上面没法体现。
 
 暴力:[https://github.com/blackyau/homework/blob/master/BuildingBlocks.java](https://github.com/blackyau/homework/blob/master/BuildingBlocks.java)
 
-递归回溯重排列:[https://github.com/blackyau/homework/blob/master/BuildingBlocks2.java](https://github.com/blackyau/homework/blob/master/BuildingBlocks2.java)
+递归回溯全排列:[https://github.com/blackyau/homework/blob/master/BuildingBlocks2.java](https://github.com/blackyau/homework/blob/master/BuildingBlocks2.java)
+
+抓取全排列带重复数字校验:[https://github.com/blackyau/homework/blob/master/BuildingBlocks3.java](https://github.com/blackyau/homework/blob/master/BuildingBlocks3.java)
 
 ## 奇怪的分式
 
@@ -1365,9 +1367,11 @@ a,b,c都是正整数，表示每个组正在加班的人数，用空格分开（
 
 请你提交：能组成的4位素数的个数，不要罗列这些素数!!
 
-> 一开始没有理解到素数的概念，计算出来的数字总是要大些。最后发现必须要一直循环到数字的前一个结束才行。
+> 一开始没有理解到素数的概念，计算出来的数字总是要大些。最后发现必须要一直循环到数字的前一个结束才行。使用了抓取全排列的方法，可以实现带重复数字的高效全排列方法。
 
 完整代码:[https://github.com/blackyau/homework/blob/master/PrimeNumber.java](https://github.com/blackyau/homework/blob/master/PrimeNumber.java)
+
+带重复全排列:[https://github.com/blackyau/homework/blob/master/PrimeNumber_1.java](https://github.com/blackyau/homework/blob/master/PrimeNumber_1.java)	
 
 ## 猜年龄
 
