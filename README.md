@@ -16,6 +16,8 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 
 暴力用BigInteger做出来了，好久没写代码了就当练习一下自己了。看解题是算有多少个5个一组的数字，反正看着云里雾里的，这应该算是找规律吧。
 
+完整代码:[https://github.com/blackyau/homework/blob/master/EndZeroCount.java](https://github.com/blackyau/homework/blob/master/EndZeroCount.java)
+
 ## 猴子分香蕉
 
 蓝桥杯 2018 Java C 2
