@@ -10,25 +10,25 @@ public class MolarMass {
 		while(n-- > 0){
 			double sum = 0;
 			String st = sc.next();
-			// ÅÐ¶Ï³¤¶È
+			// åˆ¤æ–­é•¿åº¦
 			int len = st.length();
 			while(0 < len){
 				char[] strArr = st.toCharArray();
-				// ´´½¨×ÖÄ¸ºÍÊý×ÖÊý×é
+				// åˆ›å»ºå­—æ¯å’Œæ•°å­—æ•°ç»„
 				char[] letter = new char[len];
 				int[] number = new  int[len];
-				// ¸øÊý×éÌî³ä1
+				// ç»™æ•°ç»„å¡«å……1
 				Arrays.fill(number, 1);
 				int letterIndex = 0;
-				// Ö÷Ñ­»· ÓÃÓÚÅÐ¶Ï×ÖÄ¸»¹ÊÇÊý×Ö
+				// ä¸»å¾ªçŽ¯ ç”¨äºŽåˆ¤æ–­å­—æ¯è¿˜æ˜¯æ•°å­—
 				for (int mainIndex=0; mainIndex<len; mainIndex++){
-					// Èç¹ûµÈÓÚ×ÖÄ¸
+					// å¦‚æžœç­‰äºŽå­—æ¯
 					if(Character.isLetter(strArr[mainIndex])){
 						letter[letterIndex] = strArr[mainIndex];
 						letterIndex ++;
-						// Èç¹ûµÈÓÚÊý×Ö
+						// å¦‚æžœç­‰äºŽæ•°å­—
 					}else if(Character.isDefined(strArr[mainIndex])){
-						// ÅÐ¶ÏÏÂÒ»Î»ÊÇ²»ÊÇÊý×Ö(Á½Î»Êý)
+						// åˆ¤æ–­ä¸‹ä¸€ä½æ˜¯ä¸æ˜¯æ•°å­—(ä¸¤ä½æ•°)
 						if(mainIndex+1<len&&'0'<=strArr[mainIndex+1]&&strArr[mainIndex+1]<='9'){
 							int tempnums = strArr[mainIndex] - '0';
 							tempnums = tempnums * 10;
@@ -36,12 +36,12 @@ public class MolarMass {
 							mainIndex ++;
 							continue;
 						}
-						// ²»ÊÇÁ½Î»Êý(Ò»Î»ÊýµÄÇé¿ö)
+						// ä¸æ˜¯ä¸¤ä½æ•°(ä¸€ä½æ•°çš„æƒ…å†µ)
 						int tempnum = strArr[mainIndex] - '0';
 						number[letterIndex-1] = tempnum;
 						}
 				}
-				// ¿ªÊ¼Ïà³Ë
+				// å¼€å§‹ç›¸ä¹˜
 				for (int mainIndex=0; mainIndex<len; mainIndex++){
 					if(letter[mainIndex] == 'H'){
 						sum = sum + number[mainIndex]*1.008;
