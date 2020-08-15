@@ -12,11 +12,79 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 八皇后问题
 - dp
 
+## 跳过4
+
+http://acm.suse.edu.cn/problem.php?cid=1059&pid=4
+
+给定一个数组。其中除了一个数字只出现了一次，其他数字都出现了四次。现在你需要把那个只出现了一次的数字找出来。
+
+用 HashMap 查看它出现了多少次，然后就可以筛选出来了
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Skip_4.java](https://github.com/blackyau/homework/blob/master/Skip_4.java)
+
+## 特殊的排序
+
+http://acm.suse.edu.cn/problem.php?cid=1059&pid=3
+
+给定一个 n 个整数的序列，要求对其重新排序。排序要求:
+
+奇数在前，偶数在后；
+
+奇数按从大到小排序；
+
+偶数按从小到大排序。
+
+一开始想的用两个数组分别装奇数和偶数，遍历两次，一次从头开始，另一次从尾开始。最后想，只要打印出来就行了。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Special_order.java](https://github.com/blackyau/homework/blob/master/Special_order.java)
+
+## get the number 逆序对
+
+http://acm.suse.edu.cn/problem.php?cid=1059&pid=2
+
+给你一组数据， 长度为n，求其中中逆序对有多少个
+
+对于数列的第 i 个和第 j 个元素，如果满足 i < j 且 a[i] > a[j]，则其为一个逆序对；否则不是。
+
+暴力就完事儿
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Reverse_pair.java](https://github.com/blackyau/homework/blob/master/Reverse_pair.java)
+
+## I want to be the first 排序
+
+http://acm.suse.edu.cn/problem.php?cid=1059&pid=1
+
+给定两个数字 n, m；
+
+给你一组数据， 长度为n， 找出这组数据中第m大的数字
+
+1≤n≤100000
+
+1≤k≤n
+
+就一个普通排序，我用的冒泡
+
+完整代码:[https://github.com/blackyau/homework/blob/master/Find_Min.java](https://github.com/blackyau/homework/blob/master/Find_Min.java)
+
+## the most 分最大的一份
+
+http://acm.suse.edu.cn/problem.php?cid=1059&pid=0
+
+给定两个数字n, m， 我们要求把m分成n份， 后一份必须大于等于前一份的一半
+
+问： 第一份最大是多少
+
+0 <= n, m <= 100000
+
+有点迷，直接+1就过了。想了半天，直接就莽过了。
+
+完整代码:[https://github.com/blackyau/homework/blob/master/The_most.java](https://github.com/blackyau/homework/blob/master/The_most.java)
+
 ## Pangu Separates Heaven and Earth 盘古开天辟地
 
 输入数为 1 就 打印 18000 ，不为 1 就打印 0 。
 
-[https://github.com/blackyau/homework/blob/master/Pangu.java](https://github.com/blackyau/homework/blob/master/Pangu.java)
+完整代码:[https://github.com/blackyau/homework/blob/master/Pangu.java](https://github.com/blackyau/homework/blob/master/Pangu.java)
 
 ## LeetCode 172 阶乘后的零
 
