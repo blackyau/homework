@@ -12,13 +12,23 @@ Virtual Judge [https://vjudge.net/status#un=BlackYau](https://vjudge.net/status#
 - 八皇后问题
 - dp
 
+## 出栈次序
+
+http://acm.suse.edu.cn/problem.php?cid=1060&pid=2
+
+给定一个足够大的栈，进栈序列为1，2，3，…，n，求有多少个不同的出栈序列个数
+
+Catalan number 套用通项公式即可， `1, 2, 5, 14, 42, 132` 看到前面几个数是这个，也基本都是用 Catalan 通项公式可解。
+
+完整代码:[Stack_In_Out.java](Stack_In_Out.java)
+
 ## 跳过4
 
 http://acm.suse.edu.cn/problem.php?cid=1059&pid=4
 
 给定一个数组。其中除了一个数字只出现了一次，其他数字都出现了四次。现在你需要把那个只出现了一次的数字找出来。
 
-用 HashMap 查看它出现了多少次，然后就可以筛选出来了
+> 用 HashMap 查看它出现了多少次，然后就可以筛选出来了
 
 完整代码:[https://github.com/blackyau/homework/blob/master/Skip_4.java](https://github.com/blackyau/homework/blob/master/Skip_4.java)
 
@@ -34,7 +44,7 @@ http://acm.suse.edu.cn/problem.php?cid=1059&pid=3
 
 偶数按从小到大排序。
 
-一开始想的用两个数组分别装奇数和偶数，遍历两次，一次从头开始，另一次从尾开始。最后想，只要打印出来就行了。
+> 一开始想的用两个数组分别装奇数和偶数，遍历两次，一次从头开始，另一次从尾开始。最后想，只要打印出来就行了。
 
 完整代码:[https://github.com/blackyau/homework/blob/master/Special_order.java](https://github.com/blackyau/homework/blob/master/Special_order.java)
 
@@ -46,7 +56,7 @@ http://acm.suse.edu.cn/problem.php?cid=1059&pid=2
 
 对于数列的第 i 个和第 j 个元素，如果满足 i < j 且 a[i] > a[j]，则其为一个逆序对；否则不是。
 
-暴力就完事儿
+> 暴力就完事儿
 
 完整代码:[https://github.com/blackyau/homework/blob/master/Reverse_pair.java](https://github.com/blackyau/homework/blob/master/Reverse_pair.java)
 
